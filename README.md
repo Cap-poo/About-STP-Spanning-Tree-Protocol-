@@ -11,3 +11,4 @@ here, Redundancy has different meaning depending on the topic that is being disc
 Layer 2 loop: Layer 2 (data link layer), which consist of switches, and if two or more switches are connected with each other for Redundancy (multiple path), there is high chances that can create a proble called Layer 2 loop.
 
 Let's understand how does the Layer 2 looping occures in case of Redundancy.
+<img width="727" height="402" alt="image" src="https://github.com/user-attachments/assets/2a6011a6-14ef-4d2b-9520-9d74a2ec6be3" />
