@@ -12,3 +12,6 @@ Layer 2 loop: Layer 2 (data link layer), which consist of switches, and if two o
 
 Let's understand how does the Layer 2 looping occures in case of Redundancy.
 <img width="727" height="402" alt="image" src="https://github.com/user-attachments/assets/2a6011a6-14ef-4d2b-9520-9d74a2ec6be3" />
+
+Here, there are 3 switches which are interconnected with eachother, and to remember the part that switch only has the capabilities to understand MAC address and nothing else, so now while sending a packet from PC1 (consider: connected to swithch 0), it sends to the swithch 0 which forwards to switch 1 and switch 2 and again switch 2 to switch 0 or any switch that is connected with each other creating an endless loop, and making the network restless.
+and to solve that type of proble the concept of STP (Spanning Tree Protocal) comes: which acts as the loop-preventing protocol that allows redundancy (multiple paths), while creating loop-free layer 2 topology
