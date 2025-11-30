@@ -18,8 +18,8 @@ and to solve that type of proble the concept of STP (Spanning Tree Protocal) com
 
 Now the concept of Root bridge, Secondary Root Bridge, Root Port, Designated Port and also Alternate port.
 Here in short, the meaning of each topic.
-Root Bridge: The STP managing Switch
-Secondary Root Bridge: The backup Root Bridge
-Root Port: The interface directly connected to the Root Bridge
-Designated Port: The interface which is in traffic forwarding state
-Alternate Port: The interface which is in blocking state.
+Root Bridge: The STP managing Switch /n
+Secondary Root Bridge: The backup Root Bridge /n
+Root Port: The interface directly connected to the Root Bridge /n
+Designated Port: The interface which is in traffic forwarding state /n
+Alternate Port: The interface which is in blocking state. /n
