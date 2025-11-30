@@ -17,9 +17,9 @@ Here, there are 3 switches which are interconnected with eachother, and to remem
 and to solve that type of proble the concept of STP (Spanning Tree Protocal) comes: which acts as the loop-preventing protocol that allows redundancy (multiple paths), while creating loop-free layer 2 topology
 
 Now the concept of Root bridge, Secondary Root Bridge, Root Port, Designated Port and also Alternate port.
-Here in short, the meaning of each topic.
-Root Bridge: The STP managing Switch /n
-Secondary Root Bridge: The backup Root Bridge /n
-Root Port: The interface directly connected to the Root Bridge /n
-Designated Port: The interface which is in traffic forwarding state /n
-Alternate Port: The interface which is in blocking state. /n
+Here in short, the meaning of each topic. <br>
+Root Bridge: The STP managing Switch <br>
+Secondary Root Bridge: The backup Root Bridge <br>
+Root Port: The interface directly connected to the Root Bridge <br>
+Designated Port: The interface which is in traffic forwarding state <br>
+Alternate Port: The interface which is in blocking state. <br>
