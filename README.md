@@ -15,3 +15,11 @@ Let's understand how does the Layer 2 looping occures in case of Redundancy.
 
 Here, there are 3 switches which are interconnected with eachother, and to remember the part that switch only has the capabilities to understand MAC address and nothing else, so now while sending a packet from PC1 (consider: connected to swithch 0), it sends to the swithch 0 which forwards to switch 1 and switch 2 and again switch 2 to switch 0 or any switch that is connected with each other creating an endless loop, and making the network restless.
 and to solve that type of proble the concept of STP (Spanning Tree Protocal) comes: which acts as the loop-preventing protocol that allows redundancy (multiple paths), while creating loop-free layer 2 topology
+
+Now the concept of Root bridge, Secondary Root Bridge, Root Port, Designated Port and also Alternate port.
+Here in short, the meaning of each topic.
+Root Bridge: The STP managing Switch
+Secondary Root Bridge: The backup Root Bridge
+Root Port: The interface directly connected to the Root Bridge
+Designated Port: The interface which is in traffic forwarding state
+Alternate Port: The interface which is in blocking state.
