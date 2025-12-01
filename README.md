@@ -23,3 +23,8 @@ Secondary Root Bridge: The backup Root Bridge <br>
 Root Port: The interface directly connected to the Root Bridge <br>
 Designated Port: The interface which is in traffic forwarding state <br>
 Alternate Port: The interface which is in blocking state. <br>
+
+The selection of this process goes through two cases:
+1. The priority value of Switches, and the lowest priority value is selected
+In case if the LAN (Switch), has the same priority values, this has high chance of happening, and if it occurs than the second case from which the Root Bridge is determined because:
+2. Low MAC address, as the switch can only understand the MAC address.
