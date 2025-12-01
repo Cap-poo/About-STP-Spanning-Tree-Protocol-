@@ -23,3 +23,21 @@ Secondary Root Bridge: The backup Root Bridge <br>
 Root Port: The interface directly connected to the Root Bridge <br>
 Designated Port: The interface which is in traffic forwarding state <br>
 Alternate Port: The interface which is in blocking state. <br>
+
+How the Spanning Tree Protocol Works?
+There are total of 4 ways on how the spanning tree protocol works and they are:
+<img width="765" height="461" alt="image" src="https://github.com/user-attachments/assets/ccd11686-0268-434b-8c4f-3231859f1de1" />
+<br>
+let's continue with the Root Bridge, <br>
+it is a selected Primary LAN (SWITCH), from which the STP is managed.
+<br>
+The selection of this process goes through two cases: 
+<br> 1. The priority value of Switches, and the lowest priority value is selected <br>
+In case if the LAN (Switch), has the same priority values, this has high chance of happening, and if it occurs than the second case from which the Root Bridge is determined because:
+<br> 2. Low MAC address, as the switch can only understand the MAC address.
+<img width="669" height="399" alt="image" src="https://github.com/user-attachments/assets/1922aeab-498b-4e4c-89bb-75134d277178" />
+<img width="870" height="67" alt="image" src="https://github.com/user-attachments/assets/eaffed1c-90a8-475d-8daf-6de0b97cee14" />
+<img width="972" height="62" alt="image" src="https://github.com/user-attachments/assets/f0342db7-767c-4200-bc80-45c69626e348" />
+<br>
+Now whay choosing the Lowest Priority value or LOW MAC address for the selection of Root Bridge?
+
