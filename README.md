@@ -28,3 +28,11 @@ The selection of this process goes through two cases:
 1. The priority value of Switches, and the lowest priority value is selected
 In case if the LAN (Switch), has the same priority values, this has high chance of happening, and if it occurs than the second case from which the Root Bridge is determined because:
 2. Low MAC address, as the switch can only understand the MAC address.
+
+   <br>
+NOW IT'S PART for the Election of Root port
+so, it means the port connected to the root bridge is called root port
+it is simple as that.
+<br>
+Now the third step Election of Root Designated Port
+
